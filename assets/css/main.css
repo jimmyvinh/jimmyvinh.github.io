@@ -87,7 +87,7 @@ body{
     font-size:100%;
     line-height:1.5;
     color:#000000;
-    font-family:'Montserrat',sans-serif
+    font-family:'Montserrat',sans-serif;
 }
 .timeline{
     position: relative;
@@ -320,12 +320,12 @@ sub,sup{
             display:flex;
             flex-direction:column;
             justify-content:space-between;
-            width:90%;
-            max-width:960px;
+            width:100%;
             margin:0 auto
 }
 @media only screen and (min-width:550px){
-    #projects{width:80%}}
+    #projects{width:100%;
+    background: #944c4c}}
     .user-projects{margin:20px auto}
     .user-projects img{
         max-width:100%;
