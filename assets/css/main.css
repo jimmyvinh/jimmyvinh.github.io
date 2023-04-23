@@ -148,17 +148,19 @@ body{
     display: inline-block;
     margin-bottom: 15px;
 }
-@media screen and (max-width: 550px){
+@media screen and (max-width: 440px){
     .timeline{
-        margin: 50px auto;
+        position: relative;
     }
     .timeline::after{
-        left: 30px;
+        left: 10px;
+        position: absolute;
+
     }
     .container{
-        width: 100%;
-        padding-left: 75px;
-        padding-right: 25px;
+        width: 80%;
+        padding-left: 30px;
+        padding-right: 10px;
     }
     .text-box{
         font-size: 13px;
@@ -170,9 +172,12 @@ body{
         left: 0;
     }
     .left-container-arrow,.right-container-arrow{
-        border-right: 15px solid #fff;
-        border-left: 0;
+        border-right: 15px solid #964c4c;
+        border-left: 20px;
         left: -15px;
+    }
+    body{
+        background: #fff;
     }
 }
 article,aside,figcaption,figure,footer,header,nav,section{
@@ -359,7 +364,7 @@ sub,sup{
     max-width:960px;
 }
 @media only screen and (min-width:550px){
-    #about{width:80%}}
+    #about{width:100%}}
     .tech{margin:10px}
     .user{text-align:center;
         font-size:60px;
@@ -384,7 +389,7 @@ sub,sup{
             margin:0 auto;
 }
 @media only screen and (min-width:550px){
-    #projects{width:80%;
+    #projects{width:100%;
     background: #ffffff}}
     .user-projects{margin:20px auto}
     .user-projects img{
@@ -424,7 +429,7 @@ sub,sup{
     max-width:960px;
 }
 @media only screen and (min-width:550px){
-    #education{width:80%}}
+    #education{width:100%}}
     .tech{margin:10px}
     .user{text-align:center;
         font-size:60px;
@@ -454,7 +459,7 @@ sub,sup{
     max-width:960px;
 }
 @media only screen and (min-width:550px){
-    #workexperience{width:80%}}
+    #workexperience{width:100%}}
     .tech{margin:10px}
     .user{text-align:center;
         font-size:60px;
