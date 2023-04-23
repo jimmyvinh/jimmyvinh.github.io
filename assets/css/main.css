@@ -169,9 +169,14 @@ body{
         margin-bottom: 10px;
     }
     .right-container{
-        left: 0;
+        left: 5px;
     }
-    .left-container-arrow,.right-container-arrow{
+    .left-container-arrow{
+        border-right: 15px solid #964c4c;
+        border-left: 20px;
+        left: -15px;
+    }
+    .right-container-arrow{
         border-right: 15px solid #964c4c;
         border-left: 20px;
         left: -15px;
