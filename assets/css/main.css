@@ -148,7 +148,7 @@ body{
     display: inline-block;
     margin-bottom: 15px;
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 550px){
     .timeline{
         margin: 50px auto;
     }
@@ -169,7 +169,7 @@ body{
     .right-container{
         left: 0;
     }
-    .left-container-arrow, .right-container-arrow{
+    .left-container-arrow,.right-container-arrow{
         border-right: 15px solid #fff;
         border-left: 0;
         left: -15px;
@@ -273,7 +273,7 @@ sub,sup{
     line-height:1;
     color:#fff;
 }
-@media only screen and (min-width:600px){
+@media only screen and (min-width:550px){
 .header .site-title{margin:0;
     font-size:100px}
 }
@@ -284,7 +284,7 @@ sub,sup{
     color:#fff;
     margin-top:10px;
 }
-@media only screen and (min-width:600px){
+@media only screen and (min-width:550px){
 .header .site-description{font-size:30px;
     margin-top:30px;
 }
@@ -298,7 +298,7 @@ sub,sup{
     font-size:15px;
     margin:10px;
 }
-@media only screen and (min-width:600px){
+@media only screen and (min-width:550px){
 .header-links .link{font-size:20px}
 }
 .header-icons{
@@ -324,7 +324,7 @@ sub,sup{
     color:#000000;
     background:#fff;
 }
-@media only screen and (min-width:600px){
+@media only screen and (min-width:550px){
 .header-icons .icon{
     width:35px;
      height:35px;
@@ -358,7 +358,7 @@ sub,sup{
     margin:0 auto;
     max-width:960px;
 }
-@media only screen and (min-width:600px){
+@media only screen and (min-width:550px){
     #about{width:80%}}
     .tech{margin:10px}
     .user{text-align:center;
@@ -370,7 +370,7 @@ sub,sup{
     }
     .user p{font-size:16px
 }
-@media only screen and (min-width:600px){
+@media only screen and (min-width:550px){
         .user{flex-wrap:nowrap;
             font-size:75px}}
         .user-details{text-align:center;
@@ -383,7 +383,7 @@ sub,sup{
             max-width: 960px;
             margin:0 auto;
 }
-@media only screen and (min-width:600px){
+@media only screen and (min-width:550px){
     #projects{width:80%;
     background: #ffffff}}
     .user-projects{margin:20px auto}
@@ -396,7 +396,7 @@ sub,sup{
         color:#000000;
         font-size:1.1rem}
     .user-projects p{margin-right:5px}
-@media only screen and (min-width:600px){
+@media only screen and (min-width:550px){
     .contents{margin-left:0;width:48%}
     .contents-right{margin-top:-5%}
     .contents-right,.images-right{float:right;
@@ -423,7 +423,7 @@ sub,sup{
     margin:0 auto;
     max-width:960px;
 }
-@media only screen and (min-width:600px){
+@media only screen and (min-width:550px){
     #education{width:80%}}
     .tech{margin:10px}
     .user{text-align:center;
@@ -435,7 +435,7 @@ sub,sup{
     }
     .user p{font-size:16px
 }
-@media only screen and (min-width:600px){
+@media only screen and (min-width:550px){
         .user{flex-wrap:nowrap;
             font-size:75px}}
         .user-details{text-align:center;
@@ -453,7 +453,7 @@ sub,sup{
     margin:0 auto;
     max-width:960px;
 }
-@media only screen and (min-width:600px){
+@media only screen and (min-width:550px){
     #workexperience{width:80%}}
     .tech{margin:10px}
     .user{text-align:center;
@@ -465,7 +465,7 @@ sub,sup{
     }
     .user p{font-size:16px
 }
-@media only screen and (min-width:600px){
+@media only screen and (min-width:550px){
         .user{flex-wrap:nowrap;
             font-size:75px}}
         .user-details{text-align:center;
