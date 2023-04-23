@@ -137,7 +137,6 @@ body{
     border-right: 20px solid #964c4c;
     left: -20px;
 }
-
 .text-box{
     padding: 20px 30px;
     background: #944c4c;
@@ -149,12 +148,36 @@ body{
     display: inline-block;
     margin-bottom: 15px;
 }
-
-
+@media screen and (max-width: 600px){
+    .timeline{
+        margin: 50px auto;
+    }
+    .timeline::after{
+        left: 30px;
+    }
+    .container{
+        width: 100%;
+        padding-left: 75px;
+        padding-right: 25px;
+    }
+    .text-box{
+        font-size: 13px;
+    }
+    .text-box small{
+        margin-bottom: 10px;
+    }
+    .right-container{
+        left: 0;
+    }
+    .left-container-arrow{
+        border-right: 15px solid #fff;
+        border-left: 0;
+        left: -15px;
+    }
+}
 article,aside,figcaption,figure,footer,header,nav,section{
 display:block;
 }
-
 h1{
     margin-top:1em;
     padding-top:1em;
